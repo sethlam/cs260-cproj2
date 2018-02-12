@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 2</title>
+	<link rel="stylesheet" href="/styles.css">
+
+</head>
+<body>
+	<div class="upTop">
+		<br>
+		<h1 class="bigheading"> Seth's Currency Data</h1> 
+		<ul>
+			<li class="navbaritems"><a href="index.html">Home</a></li>
+			<li class="navbaritems"><a href="quote.html">Quote</a></li>
+			<li class="navbaritems"><a href="convert.html">Convert</a></li>
+			<li class="navbaritems"><a href="marketStatus.html">Market Status</a></li>
+		</ul>
+	</div>
+	<div class="main">
+		<br>
+		<br>  
+		<script src="https://1forge.com/widget-cdn/forex-ticker/main.js" type="text/javascript"></script>
+
+		<div id="forex-ticker"></div> 
+
+		<script>
+			ForexTicker.init(
+			{
+				pairs: ["EURUSD", "USDJPY", "GBPUSD", "USDCHF", "EURCHF", "AUDUSD"],
+        theme: "dark", //this can be "light" or "dark" 
+        margin: "10px",
+        width: "100%",
+        height: "600px",
+    });
+</script>
+</div>
+</body>
+
+<footer>
+	<a href="https://github.com/sethlam/cs260-cproj2.git">GitHub Link</a>
+</footer>
+</html>

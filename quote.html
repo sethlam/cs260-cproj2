@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 2</title>
+	<link rel="stylesheet" href="/styles.css">
+
+</head>
+<body>
+	<div class="upTop">
+		<br>
+		<h1 class="bigheading"> Seth's Currency Data</h1> 
+		<ul>
+			<li class="navbaritems"><a href="index.html">Home</a></li>
+			<li class="navbaritems"><a href="quote.html">Quote</a></li>
+			<li class="navbaritems"><a href="convert.html">Convert</a></li>
+			<li class="navbaritems"><a href="marketStatus.html">Market Status</a></li>
+		</ul>
+	</div>
+	<div class="main">
+		<br>
+		<br> 
+		<form>
+			<label style="font-family:sans-serif;">I want to get a quote of:</label>
+			<select id="quoteInput">
+				<option value="AUDJPY">AUDJPY</option>
+				<option value="AUDUSD">AUDUSD</option>
+				<option value="CHFJPY">CHFJPY</option>
+				<option value="EURAUD">EURAUD</option>
+				<option value="EURCAD">EURCAD</option>
+				<option value="EURJPY">EURJPY</option>
+				<option value="GBPAUD">GBPAUD</option>
+				<option value="GBPCAD">GBPCAD</option>
+				<option value="USDCAD">USDCAD</option>
+				<option value="USDJPY">USDJPY</option>
+
+			</select>
+			<input style="margin-left:50px;" id="quoteSubmit" type="submit" value="Submit"></input>
+		</form>
+
+		<div id="quoteResults"></div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script text="type/javascript" src="/script.js">
+		</script> 
+
+	</div>
+</body>
+
+<footer>
+	<a href="https://github.com/sethlam/cs260-cproj2.git">GitHub Link</a>
+</footer>
+</html>

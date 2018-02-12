@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 2</title>
+	<link rel="stylesheet" href="/styles.css">
+
+</head>
+<body>
+	<div class="upTop">
+		<br>
+		<h1 class="bigheading"> Seth's Currency Data</h1> 
+		<ul>
+			<li class="navbaritems"><a href="index.html">Home</a></li>
+			<li class="navbaritems"><a href="quote.html">Quote</a></li>
+			<li class="navbaritems"><a href="convert.html">Convert</a></li>
+			<li class="navbaritems"><a href="marketStatus.html">Market Status</a></li>
+		</ul>
+	</div>
+	<div class="main">
+		<br>
+		<br> 
+		<form>
+			<label style="font-family:sans-serif;">I want to convert</label>
+			<input style="width:50px;" id="currencyAmount" type="text" value="100"></input>
+			<label style="font-family:sans-serif;">from</label>
+			<input style="width:30px;" id="currencyFrom" type="text" value="USD"></input>
+			<label style="font-family:sans-serif;">to</label>
+			<input style="width:30px;" id="currencyTo" type="text" value="EUR"></input>
+			<input style="margin-left:50px; "id="convertSubmit" type="submit" value="Submit"></input>
+		</form>
+
+		<div id="convertResults"></div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script text="type/javascript" src="/script.js">
+		</script> 
+
+	</div>
+</body>
+
+<footer>
+	<a href="https://github.com/sethlam/cs260-cproj2.git">GitHub Link</a>
+</footer>
+</html>
